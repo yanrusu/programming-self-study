@@ -1,0 +1,6 @@
+y=int(input())
+n=sorted([int(x) for x in input().split()])
+print(*n)
+n=list(set(n))
+n.sort(reverse=True)
+print(*n)
